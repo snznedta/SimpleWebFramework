@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.13 (~/anaconda/bin/python)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.1 (~/anaconda/envs/py36/python.app/Contents/MacOS/python)" project-jdk-type="Python SDK" />
+  <component name="PythonCompatibilityInspectionAdvertiser">
+    <option name="version" value="1" />
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ScopeChooserConfigurable.UI">
