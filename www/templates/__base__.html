@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--
+
 {% macro pagination(url, page) %}
     <ul class="uk-pagination">
         {% if page.has_previous %}
@@ -15,7 +15,7 @@
         {% endif %}
     </ul>
 {% endmacro %}
--->
+
 <html>
 <head>
     <meta charset="utf-8" />
@@ -37,7 +37,8 @@
         <div class="uk-container uk-container-center">
             <a href="/" class="uk-navbar-brand">Blog</a>
             <ul class="uk-navbar-nav">
-                <li data-url="blogs"><a href="/"><i class="uk-icon-home"></i> 日志</a></li>
+                <li><a href="/"><i class="uk-icon-home"></i> 日志</a></li>
+                <li><a href="/manage/blogs/create"><i class="uk-icon-heart"></i> 写日志</a></li>
                 <!--<li><a target="_blank" href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000"><i class="uk-icon-book"></i> 教程</a></li>-->
                 <!--<li><a target="_blank" href="https://github.com/michaelliao/awesome-python3-webapp"><i class="uk-icon-code"></i> 源码</a></li>-->
             </ul>
